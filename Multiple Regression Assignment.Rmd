@@ -121,6 +121,7 @@ jmv::linReg(
   stdEst = TRUE,
   ciStdEst = TRUE)
 ```
-
-
-
+## Comparison: 
+## Jamovi: Sales:Y=(-26.613)+0.0849*Adverts+3.3674*Airplay+11.0863*Image
+## R: Sales:Y=(-26.612958)+0.084885*Adverts+3.367425*Airplay+11.086335*Image
+## -> Numerical values in output are pretty similar to each other, if you round it
